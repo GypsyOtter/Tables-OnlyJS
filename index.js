@@ -3,10 +3,12 @@ import 'https://tomashubelbauer.github.io/github-pages-local-storage/index.js';
     let tables;
 
     tables = JSON.parse(localStorage.getItem('tables'));
+    console.log(tables);
     if (tables === null){
         tables = []
         localStorage.setItem('tables', tables);
     }
+    console.log(tables);
 
     const createTableBody = (tables) => {
         let tableBody = document.createElement('tbody');
