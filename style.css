@@ -1,0 +1,47 @@
+.btn{
+    background-color: cadetblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+.tableElement{
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+.tableHeadingElement{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.sortBtn{
+    width: 25px;
+}
+
+.sortBtnActive{
+    background-color: darkslategray;
+}
+
+.lastRow{
+    display: flex;
+    gap: 3px;
+}
+
+.addElementBtn{
+    padding: 4px;
+    font-size: 21px;
+}
+
+.elementInputField{
+    font-size: 21px;
+}

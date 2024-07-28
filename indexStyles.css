@@ -1,0 +1,203 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+button, input, select, textarea{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+    box-sizing: border-box;
+    width: max-content;
+    padding: 4px;
+    background-color: cadetblue;
+    align-items: center;
+    line-height: 1;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+.indexTable {
+    border-collapse: collapse;
+}
+
+.tableHeading{
+    display: flex;
+    gap: 10px;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.indexTableElement {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.addTableBtn {
+    font-size: 30px;
+    padding: 7px;
+}
+
+.deleteTableModalBtn {
+    font-size: 25px;
+    padding: 5px 20px;
+}
+
+.btnsContainer{
+    display: flex;
+    gap: 4px;
+}
+
+.addTableFormBackdrop {
+    position: fixed;
+    inset: 0;
+    overflow-y: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(6px);
+}
+
+.addTableForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 6px;
+    width: 30%;
+    padding: 10px;
+}
+
+.formTop{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.formBody{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.goToTableBtn{
+    font-size: 25px;
+}
+
+.formBodyHeading{
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+.tableNameInputField{
+    font-size: 21px;
+}
+
+.newFieldContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.redBtn{
+    background-color: crimson;
+    font-weight: bold;
+}
+
+.redBtn:hover{
+    background-color:palevioletred;
+}
+
+.submitBtn{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.returnToIndexBtn {
+    font-size: 24px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.mainTable{
+    border-collapse: collapse;
+}
+
+.tableElement{
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.2;
+}
+
+.tableHeadingElement{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteRowBtn {
+    font-size: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.sortBtn{
+    width: 25px;
+}
+
+.sortBtnActive{
+    background-color: darkslategray;
+}
+
+.lastRow{
+    display: flex;
+    gap: 3px;
+}
+
+.addElementBtn{
+    padding: 4px;
+    font-size: 21px;
+}
+
+.elementInputField{
+    font-size: 21px;
+}
+
+.deleteTableModal{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 6px;
+    width: 25%;
+    padding: 10px;
+}
+
+.modalBody {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
