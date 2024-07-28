@@ -2,6 +2,10 @@
     let tables;
 
     tables = JSON.parse(localStorage.getItem('tables'));
+    if (tables === null){
+        tables = []
+        localStorage.setItem('tables', tables);
+    }
 
     const createTableBody = (tables) => {
         let tableBody = document.createElement('tbody');
